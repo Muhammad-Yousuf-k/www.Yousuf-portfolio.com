@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousuf's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="animation.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section id="Home" class="section1">
+
+        <div class="nav">
+            <h1 class="name">Muhammad Yousuf</h1>
+            <ul class="nav_ul">
+                <li class="nav_li"><a class="nav_a" href="#Home">Home</a></li>
+                <li class="nav_li"><a class="nav_a" href="#About">About</a></li>
+                <li class="nav_li"><a class="nav_a" href="#Portfolio">Portfolio</a></li>
+                <li class="nav_li"><a class="nav_a" href="#">Contact</a></li>
+            </ul>
+            <img class="burger" src="icon/burger.svg" alt="">
+        </div>
+        <div class="home">
+            <div class="left">
+                <div class="textto">
+                    <h1 class="main_head"><span class="main_head_white">Software</span><br>Engineer</h1>
+                </div>
+                <p class="main_para" id="demo"></p>
+                <p class="main_para1" id="demo">Lorem ipsum, dolor sit amet consectetur adipisicing elite</p>
+                <div class="main_btn">
+                    <button class="btn b1">Reach</button>
+                    <button class="btn">javascript</button>
+                    <button class="btn">node.js</button>
+                    <button class="btn">tailwind</button>
+                </div>
+                <div class="main_btn1">
+                    <button class="btn1 b12">Projects</button>
+                    <button class="btn1">Contact</button>
+                </div>
+            </div>
+            <div class="right">
+                <img class="main_img" src="img/dev.png" alt="">
+            </div>
+        </div>
+        <hr class="hr">
+    </section>
+
+    <section id="About" class="section2">
+        <div class="about_upper">
+            <h1 class="about_upper_text">About Me</h1>
+            <p class="about_upper_para">&#9830 Transforming Ideas Into Digital Experience &#9830</p>
+        </div>
+        <div class="about_lower">
+            <div class="about_left">
+                <h1 class="about_lower_text"><span class="about_lower_text_span">Hello, I'm</span><br>Muhammad Yousuf
+                    Khan</h1>
+                <p class="about_lower_para">Hi, I’m a passionate and creative developer focused on building clean,
+                    user-friendly, and functional digital experiences. I enjoy turning ideas into real products that not
+                    only look good but also work smoothly. Whether it's website templates or digital tools ,i aim to
+                    deliver work that’s thoughtful, efficient, and impactful</p>
+                <div class="about_btn_box">
+                    <button class="about_btn abtn">Download CV</button>
+                    <button class="about_btn "> View Projects</button>
+                </div>
+            </div>
+
+            <div class="about_right">
+                <img class="about_img" src="img/you.jpg" alt="">
+            </div>
+        </div>
+        <hr class="hr">
+    </section>
+
+    <section id="Portfolio" class="section3">
+        <div class="portfolio_upper">
+            <h1 class="portfolio_upper_text">Portfolio Showcase</h1>
+            <p class="portfolio_upper_para">&#9830 here you'll find a collection of my work including websites templates digital products and creative projects. each piece reflects my skills attention to detail and focus on creating smooth and effective user experiences &#9830</p>
+        </div>
+        <div class="portfolio_middle">
+            <button id="projbtn" class="port_btn">Projects</button>
+            <button id="cerbtn" class="port_btn">Certificate</button>
+            <button id="techbtn" class="port_btn">Tech Stack</button>
+        </div>
+        <div class="portfolio_lower">
+            <div style="display: flex;" id="projects-container1"></div>
+            <div style="display: none;" id="projects-container2"></div>
+            <div style="display: none;" id="projects-container3"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

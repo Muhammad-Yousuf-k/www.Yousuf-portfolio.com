@@ -1,0 +1,13 @@
+/* :root{
+    --fontclr: #b969e7;
+    --glowclr: #deb7ff;
+    } */
+    
+    :root{
+    --mainclr: #180929;
+    --scclr: #24103a;
+    --spfontclr: #8E44AD;
+    --fontclr1: #EDEDED;
+    --fontclr2: gray;
+    --glowclr: #D291BC;
+}

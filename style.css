@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hr {
+    background-color: var(--spfontclr);
+    border: none;
+    width: 90%;
+    height: 2px;
+    margin: 0px auto;
+    /* padding-bottom: 10px; */
+    z-index: 999999;
+}
+
+
+
+body {
+    height: 2500px;
+    /* background-color: var(--mainclr); */
+}
+
+
+/* home section======================================================= */
+
+.section1 {
+    background-color: var(--mainclr);
+    /* height: 100vh; */
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    height: 10vh;
+    align-items: center;
+    /* background-color: var(--mainclr); */
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+.burger {
+    width: 60px;
+    cursor: pointer;
+    /* border: 2px solid white; */
+    display: none;
+}
+
+.name {
+    margin-left: 5%;
+    font-size: 30px;
+    color: var(--spfontclr);
+    text-shadow: 2px 2px 20px var(--glowclr);
+    /* border: 2px solid black; */
+}
+
+.nav_ul {
+    margin-right: 5%;
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_li {
+    list-style: none;
+}
+
+.nav_li:hover {
+    text-shadow: 2px 2px 15px var(--glowclr);
+}
+
+.nav_a {
+    text-decoration: none;
+    color: var(--fontclr1);
+}
+
+
+
+.home {
+    height: 90vh;
+    /* border: 2px solid black; */
+    display: flex;
+    /* background-color: var(--mainclr); */
+}
+
+.left {
+    width: 50%;
+    /* border: 2px solid black; */
+}
+
+.main_head {
+    color: var(--spfontclr);
+    font-size: 11vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    animation-name: fade;
+    animation-duration: 1s;
+
+}
+
+.main_head_white {
+    color: var(--fontclr1);
+    font-size: 11vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.main_para {
+    /* border: 2px solid black; */
+    margin-left: 10%;
+    margin-top: 20px;
+    color: var(--fontclr2);
+    font-size: 4vh;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+
+.main_para1 {
+    margin-left: 10%;
+    margin-top: 20px;
+    color: var(--fontclr2);
+    font-size: 2vh;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+.main_btn {
+    padding-left: 10%;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: var(--scclr);
+    border: none;
+    color: var(--fontclr1);
+    text-shadow: 2px 2px 15px var(--glowclr);
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+.b1 {
+    margin-left: 0%;
+
+}
+
+.btn:hover {
+    transform: scale(110%);
+    /* background-color: yellowgreen; */
+
+}
+
+.main_btn1 {
+    padding-left: 10%;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    width: 70%;
+    cursor: pointer;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.btn1 {
+    padding: 14px 40px;
+    background-color: black;
+    border: none;
+    color: var(--fontclr1);
+    border-radius: 4px;
+}
+
+.btn1:hover {
+    box-shadow: 1px 1px 10px 1px var(--fontclr1);
+
+}
+
+.b12 {
+    margin-right: 30px;
+}
+
+.right {
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_img {
+    width: 70%;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+/* About section======================================================= */
+
+.section2 {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: var(--mainclr);
+}
+
+.about_upper {
+    width: 100%;
+    height: 20vh;
+    /* border: 2px solid black; */
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%
+}
+
+.about_upper_text {
+    color: var(--spfontclr);
+    text-align: center;
+    font-size: 10vh;
+    text-shadow: 2px 2px 30px var(--glowclr);
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.about_upper_para {
+    color: var(--fontclr2);
+    text-align: center;
+    font-size: 2vh;
+}
+
+.about_lower {
+    width: 100%;
+    height: 80vh;
+    /* border: 2px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+
+}
+
+.about_left {
+    width: 50%;
+    /* border: 2px solid black; */
+
+}
+
+.about_lower_text {
+    color: var(--spfontclr);
+    font-size: 6vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-left: 10%;
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%
+}
+
+.about_lower_text_span {
+    color: var(--spfontclr);
+    font-size: 6vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+
+}
+
+.about_lower_para {
+    margin-left: 10%;
+    margin-top: 20px;
+    color: var(--fontclr2);
+    font-size: 3vh;
+    width: 80%;
+    /* border: 2px solid black; */
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%
+}
+
+.about_btn_box {
+    padding-left: 10%;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    width: 70%;
+    cursor: pointer;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%
+}
+
+.about_btn {
+    padding: 14px 40px;
+    background-color: black;
+    border: none;
+    color: var(--fontclr1);
+    border-radius: 4px;
+}
+
+.about_btn:hover {
+    box-shadow: 1px 1px 10px 1px var(--fontclr1);
+
+}
+
+.abtn {
+    margin-right: 5%;
+}
+
+.about_right {
+    width: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%
+}
+
+.about_img {
+    width: 50%;
+    border: 2px solid var(--spfontclr);
+    border-radius: 360px;
+    /* box-shadow: 1px 1px 30px 1px var(--fontclr1); */
+    animation-name: glow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+
+/* portfolio section======================================================= */
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--mainclr);
+}
+
+.portfolio_upper {
+    width: 100%;
+    height: 20vh;
+    /* border: 2px solid black; */
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    overflow: hidden;
+}
+
+.portfolio_upper_text {
+    color: var(--spfontclr);
+    text-align: center;
+    font-size: 10vh;
+    text-shadow: 2px 2px 30px var(--glowclr);
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+.portfolio_upper_para {
+    color: var(--fontclr2);
+    text-align: center;
+    font-size: 2vh;
+    width: 70%;
+    margin: 0px auto;
+    /* border: 2px solid black; */
+}
+
+.portfolio_middle {
+    width: 100%;
+    height: 15vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+.port_btn {
+    /* padding: 14px 40px; */
+    width: 25%;
+    height: 80px;
+    background-color: var(--scclr);
+    border: none;
+    color: var(--fontclr1);
+    margin-right: 40px;
+    text-shadow: 2px 2px 50px var(--glowclr);
+    border-radius: 7px;
+}
+
+.portfolio_lower {
+    width: 100%;
+    height: 65vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0518;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+
+}
+
+/* for cards============================== */
+#projects-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(63, 197, 250); */
+    overflow-y: none;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+#projects-container2 {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(63, 197, 250); */
+    overflow-y: none;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    display: none;
+}
+
+#projects-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(63, 197, 250); */
+    overflow-y: none;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    display: none;
+}
+
+
+.card {
+    width: 250px;
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: var(--scclr);
+    border: none;
+    /* border: 2px solid rgb(63, 197, 250); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* animation: fade linear;
+    animation-timeline: view(); */
+      background-color: rgba(0, 0, 0, 0.336);
+  /* -webkit-backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px)
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    /* border: 2px solid rgb(63, 197, 250); */
+    color: var(--spfontclr);
+    text-shadow: 2px 2px 30px var(--glowclr);
+
+}
+
+.card p {
+    font-size: 14px;
+    /* border: 2px solid rgb(63, 197, 250); */
+    text-align: center;
+    color: var(--fontclr2);
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: black;
+    color: var(--fontclr1);
+    border-radius: 4px;
+    cursor: pointer;
+    /* border: 2px solid rgb(63, 197, 250); */
+}
+
+.card button:hover {
+    box-shadow: 1px 1px 10px 1px var(--fontclr1);
+}
