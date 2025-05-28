@@ -66,17 +66,32 @@ const projects = [
   {
     title: "portfolio website",
     description: "my personal portfolio built using html css js",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "todo app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "weather app",
     description: "shows real-time weather info from an api",
-    image: "img/you.jpg",
+    image: "you.jpg",
+  },
+  {
+    title: "todo app",
+    description: "a simple and clean todo list application",
+    image: "you.jpg",
+  },
+  {
+    title: "todo app",
+    description: "a simple and clean todo list application",
+    image: "you.jpg",
+  },
+  {
+    title: "todo app",
+    description: "a simple and clean todo list application",
+    image: "you.jpg",
   },
   {
     title: "todo app",
@@ -86,54 +101,39 @@ const projects = [
   {
     title: "todo app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "todo app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "todo app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "todo app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "todo app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "img/you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "img/you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
 ];
 const certificate = [
   {
     title: "portfolio website",
     description: "my personal portfolio built using html css js",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "spider finder app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   }
 
 ];
@@ -141,12 +141,12 @@ const techz = [
   {
     title: "portfolio website",
     description: "my personal portfolio built using html css js",
-    image: "img/you.jpg",
+    image: "you.jpg",
   },
   {
     title: "chucha finder app",
     description: "a simple and clean todo list application",
-    image: "img/you.jpg",
+    image: "you.jpg",
   }
 
 ];
