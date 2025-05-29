@@ -107,7 +107,9 @@ projects.forEach((project) => {
  <img src="${project.image}" alt="${project.title}">
  <h3>${project.title}</h3>
  <p>${project.description}</p>
- <button href="${project.link}">view project</button>
+ <a href="${project.link}">
+ <button>view project</button>
+ </a>
  `;
   container.appendChild(card);
 });
