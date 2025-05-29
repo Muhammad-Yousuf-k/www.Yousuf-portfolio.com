@@ -68,6 +68,12 @@ const projects = [
     description: "practicing to enchant to skills, try to clone Netflix",
     image: "img/netflix.png",
     link: "https://muhammad-yousuf-k.github.io/Netflex-clone/",
+  },
+  {
+    title: "Tic Tak Toe",
+    description: "practicing to enchant to skills, to make a simple game",
+    image: "img/TTT.jpg",
+    link: "https://muhammad-yousuf-k.github.io/tik-tak-toe/",
   }
 ];
 const certificate = [
@@ -79,7 +85,7 @@ const certificate = [
   {
     title: "spider finder app",
     description: "a simple and clean todo list application",
-    image: "img.dev.png",
+    image: "img/dev.png",
   }
 
 ];
