@@ -69,36 +69,43 @@ const projects = [
     image: "img/netflix.png",
     link: "https://muhammad-yousuf-k.github.io/Netflex-clone/",
   },
+
   {
     title: "Tic Tak Toe",
-    description: "practicing to enchant to skills, to make a simple game",
+    description: "practicing to enchant to skills, To Make a Game",
     image: "img/TTT.jpg",
     link: "https://muhammad-yousuf-k.github.io/tik-tak-toe/",
   }
+
 ];
 const certificate = [
   {
-    title: "certificate ",
-    description: "my personal portfolio built using html css js",
-    image: "img/dev.png",
+    title: "Graphic Design",
+    description: "by Capital Institute",
+    image: "img/you.jpg",
   },
   {
-    title: "spider finder app",
-    description: "a simple and clean todo list application",
-    image: "img/dev.png",
+    title: "Matric",
+    description: "by Capital Institute",
+    image: "img/you.jpg",
+  },
+  {
+    title: "(DAE) in software engineering",
+    description: "by Capital Institute",
+    image: "img/TTT.jpg",
   }
 
 ];
 const techz = [
   {
-    title: "tech Stact ",
+    title: "portfolio website",
     description: "my personal portfolio built using html css js",
-    image: "img/dev.png",
+    image: "img/you.jpg",
   },
   {
-    title: "chucha finder app",
-    description: "a simple and clean todo list application",
-    image: "img/dev.png",
+    title: "Graphic Design",
+    description: "by Capital Institute",
+    image: "img/you.jpg",
   }
 
 ];
@@ -129,12 +136,18 @@ const container1 = document.getElementById("projects-container2");
 certificate.forEach((certificate) => {
   const card = document.createElement("div");
   card.className = "card";
-  card.innerHTML = `
- <img src="${certificate.image}" alt="${certificate.title}">
- <h3>${certificate.title}</h3>
- <p>${certificate.description}</p>
- <button>view project</button>
- `;
+  card.innerHTML = `<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="flip_img" src="${certificate.image}" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>${certificate.title}</h1>
+      <p>${certificate.description}</p>
+      <p style="margin-top: 10px">Click to view</p>
+    </div>
+  </div>
+</div> `;
   container1.appendChild(card);
 });
 
