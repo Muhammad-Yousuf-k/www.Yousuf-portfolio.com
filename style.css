@@ -561,7 +561,7 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 7px;
-    
+
 }
 
 .flip-card-front {
@@ -569,14 +569,14 @@ body {
     color: black;
     overflow: hidden;
     background-color: var(--mainclr);
-    
+
 }
 
 .flip_img {
     width: 250px;
-    height:250px;
+    height: 250px;
     object-fit: contain;
-    
+
 }
 
 .flip-card-back {
@@ -590,5 +590,34 @@ body {
     text-shadow: 2px 2px 50px var(--glowclr);
     box-shadow: 1px 1px 50px 1px black;
     
+    
+}
 
+
+
+
+/* for Certificate cards============================== */
+.cd_box {
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 50px 1px black;
+    background-color: var(--scclr);
+    border-radius: 7px;
+}
+
+.cd_box_img {
+    width: 50%;
+}
+
+.cd_box>h1{
+    color: var(--spfontclr);
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 2px 2px 50px var(--glowclr);
 }
