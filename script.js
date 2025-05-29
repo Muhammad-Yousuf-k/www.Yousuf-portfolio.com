@@ -107,14 +107,28 @@ const certificate = [
 ];
 const techz = [
   {
-    title: "portfolio website",
-    description: "my personal portfolio built using html css js",
-    image: "img/you.jpg",
+    icon: "icon/html.svg",
+    name: "HTML",
   },
   {
-    title: "Graphic Design",
-    description: "by Capital Institute",
-    image: "img/you.jpg",
+    icon: "icon/css.svg",
+    name: "CSS",
+  },
+  {
+    icon: "icon/javascript.svg",
+    name: "JavaScript",
+  },
+  {
+    icon: "icon/wordpress.svg",
+    name: "WordPress",
+  },
+  {
+    icon: "icon/photoshop.svg",
+    name: "PhotoShop",
+  },
+  {
+    icon: "icon/microsoft_office.svg",
+    name: "Microsoft Office",
   }
 
 ];
@@ -168,11 +182,10 @@ const container2 = document.getElementById("projects-container3");
 techz.forEach((techz) => {
   const card = document.createElement("div");
   card.className = "card";
-  card.innerHTML = `
- <img src="${techz.image}" alt="${techz.title}">
- <h3>${techz.title}</h3>
- <p>${techz.description}</p>
- <button>view project</button>
+  card.innerHTML = `    <div class="cd_box">
+        <img class="cd_box_img" src="${techz.icon}" alt="">
+        <h1>${techz.name}</h1>
+    </div>
  `;
   container2.appendChild(card);
 });
