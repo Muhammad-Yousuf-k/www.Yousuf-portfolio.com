@@ -90,6 +90,7 @@ body {
     height: 90vh;
     /* border: 2px solid black; */
     display: flex;
+    align-items: center;
     /* background-color: var(--mainclr); */
 }
 
@@ -233,14 +234,17 @@ body {
     /* border: 2px solid black; */
     animation: fade linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%
+    animation-range: entry 0% cover 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about_upper_text {
     color: var(--spfontclr);
     text-align: center;
     font-size: 10vh;
-    text-shadow: 2px 2px 30px var(--glowclr);
+    text-shadow: 1px 1px 20px var(--glowclr);
     font-family: "MedievalSharp", cursive;
     /* font-weight: 400; */
     font-style: normal;
@@ -258,6 +262,7 @@ body {
     /* border: 2px solid black; */
     display: flex;
     /* flex-direction: column; */
+    align-items: center;
 
 }
 
@@ -374,16 +379,21 @@ body {
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
     overflow: hidden;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .portfolio_upper_text {
     color: var(--spfontclr);
     text-align: center;
     font-size: 10vh;
-    text-shadow: 2px 2px 30px var(--glowclr);
+    text-shadow: 1px 1px 70px var(--glowclr);
     font-family: "MedievalSharp", cursive;
     /* font-weight: 400; */
     font-style: normal;
+    margin-top: 15px;
+
 
 }
 
@@ -490,7 +500,7 @@ body {
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    box-shadow: 1px 1px 80px 1px black;
+    box-shadow: 1px 1px 100px 1px black;
 
 }
 
@@ -528,7 +538,7 @@ body {
 }
 
 .card button:hover {
-    box-shadow: 1px 1px 10px 1px var(--fontclr1);
+    box-shadow: 1px 1px 100px 1px var(--fontclr1);
 }
 
 /* for Certificate cards============================== */
