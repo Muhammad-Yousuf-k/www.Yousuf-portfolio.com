@@ -64,89 +64,34 @@ tech.addEventListener("click", () => {
 // for projects card==================================================================
 const projects = [
   {
-    title: "portfolio website",
-    description: "my personal portfolio built using html css js",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "weather app",
-    description: "shows real-time weather info from an api",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "img/you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
-  {
-    title: "todo app",
-    description: "a simple and clean todo list application",
-    image: "you.jpg",
-  },
+    title: "Netflix Clone",
+    description: "practicing to enchant to skills, try to clone Netflix",
+    image: "img/netflix.png",
+  }
 ];
 const certificate = [
   {
-    title: "portfolio website",
+    title: "certificate ",
     description: "my personal portfolio built using html css js",
-    image: "you.jpg",
+    image: "img/dev.png",
   },
   {
     title: "spider finder app",
     description: "a simple and clean todo list application",
-    image: "you.jpg",
+    image: "img.dev.png",
   }
 
 ];
 const techz = [
   {
-    title: "portfolio website",
+    title: "tech Stact ",
     description: "my personal portfolio built using html css js",
-    image: "you.jpg",
+    image: "img/dev.png",
   },
   {
     title: "chucha finder app",
     description: "a simple and clean todo list application",
-    image: "you.jpg",
+    image: "img/dev.png",
   }
 
 ];
