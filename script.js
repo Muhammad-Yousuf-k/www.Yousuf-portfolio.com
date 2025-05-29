@@ -80,19 +80,28 @@ const projects = [
 ];
 const certificate = [
   {
-    title: "Graphic Design",
-    description: "by Capital Institute",
-    image: "img/you.jpg",
+    title: "Web Development",
+    description: "by Visionery IT Institute",
+    image: "img/web_certi.jpg",
+    Status: "Complete"
+  },
+  {
+    title: "C.I.T",
+    description: "by Visionery IT Institute",
+    image: "img/cit_certi.jpg",
+    Status: "Complete"
   },
   {
     title: "Matric",
-    description: "by Capital Institute",
-    image: "img/you.jpg",
+    description: "by Pak German Capital School",
+    image: "img/TTT.jpg",
+    Status: "Complete"
   },
   {
     title: "(DAE) in software engineering",
     description: "by Capital Institute",
     image: "img/TTT.jpg",
+    Status: "continue"
   }
 
 ];
@@ -144,6 +153,7 @@ certificate.forEach((certificate) => {
     <div class="flip-card-back">
       <h1>${certificate.title}</h1>
       <p>${certificate.description}</p>
+      <p>Status: ${certificate.Status}</p>
       <p style="margin-top: 10px">Click to view</p>
     </div>
   </div>
