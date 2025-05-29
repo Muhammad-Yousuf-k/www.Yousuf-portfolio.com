@@ -598,7 +598,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-shadow: 2px 2px 50px var(--glowclr);
-    box-shadow: 1px 1px 50px 1px black;
+    box-shadow: 1px 1px 100px 1px black;
     
     
 }
@@ -616,7 +616,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 1px 1px 50px 1px black;
+    box-shadow: 1px 1px 100px 1px black;
     background-color: var(--scclr);
     border-radius: 7px;
 }
