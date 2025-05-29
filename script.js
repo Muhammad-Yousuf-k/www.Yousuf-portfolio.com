@@ -67,6 +67,7 @@ const projects = [
     title: "Netflix Clone",
     description: "practicing to enchant to skills, try to clone Netflix",
     image: "img/netflix.png",
+    link: "https://muhammad-yousuf-k.github.io/Netflex-clone/",
   }
 ];
 const certificate = [
@@ -106,7 +107,7 @@ projects.forEach((project) => {
  <img src="${project.image}" alt="${project.title}">
  <h3>${project.title}</h3>
  <p>${project.description}</p>
- <button>view project</button>
+ <button href="${project.link}">view project</button>
  `;
   container.appendChild(card);
 });
