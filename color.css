@@ -5,4 +5,5 @@
            --fontclr1: #EDEDED;
            --fontclr2: gray;
            --glowclr: #D291BC;
+           --liner: linear-gradient(to right, rgb(65, 11, 165) , var(--spfontclr));
        }
