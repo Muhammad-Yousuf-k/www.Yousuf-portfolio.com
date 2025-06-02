@@ -31,7 +31,7 @@ project.addEventListener("click", () => {
     con2.style.display = "none";
     con3.style.display = "none";
     console.log("project true");
-  } 
+  }
 });
 
 certi.addEventListener("click", () => {
