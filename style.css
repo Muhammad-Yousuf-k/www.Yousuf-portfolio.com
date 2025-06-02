@@ -710,6 +710,7 @@ body {
     padding-left: 10px;
     background-color: transparent;
     /* border: 2px solid rgb(255, 255, 255); */
+    color: var(--fontclr1);
 }
 
 .comm_box {
@@ -762,7 +763,7 @@ body {
     margin-right: 10px;
 }
 
-.contect_left_connet_box{
+.contect_left_connet_box {
     width: 73%;
     height: 200px;
     border-radius: 10px;
@@ -774,17 +775,18 @@ body {
     column-gap: 7px;
     row-gap: 7px;
     padding: 5px;
+    margin-bottom: 30px;
 
 }
 
-.contect_left_connet_text{
+.contect_left_connet_text {
     text-align: center;
     color: var(--fontclr2);
-    margin: 10px;
-    
+    /* margin: 10px; */
+
 }
 
-.contect_left_connet_anh{
+.contect_left_connet_anh {
     color: var(--fontclr2);
     display: flex;
     align-items: center;
@@ -793,19 +795,20 @@ body {
     /* border: 2px solid rgb(63, 197, 250); */
     border-radius: 7px;
     background-color: var(--scclr);
-    
+
 }
 
-.contect_left_connet_anh_img{
+.contect_left_connet_anh_img {
     width: 25px;
-    padding: 5px 5px;}
-
-.con_t{
-      grid-column: 1 / -1;
+    padding: 5px 5px;
 }
 
-.con_anh1{
-      grid-column: 1 / -1;
+.con_t {
+    grid-column: 1 / -1;
+}
+
+.con_anh1 {
+    grid-column: 1 / -1;
 }
 
 .right_contact {
