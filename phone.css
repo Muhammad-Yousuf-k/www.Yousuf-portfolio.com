@@ -82,8 +82,33 @@
         padding: 14px 20px;
     }
 
+    .left_contact {
+        width: 45%;
+    }
+
+    .right_contact {
+        width: 45%;
+    }
+
 }
 
+
+@media only screen and (max-width: 800px) {
+    .main_contact_box {
+        flex-direction: column;
+        justify-content: none;
+        align-items: center;
+    }
+
+    .left_contact {
+        width: 90%;
+    }
+
+    .right_contact {
+        width: 90%;
+        margin-top: 30px;
+    }
+}
 
 @media only screen and (max-width: 760px) {
 
@@ -142,6 +167,10 @@
         width: 95%;
     }
 
+    .contect_left_connet_text {
+        font-size: 20px;
+    }
+
 
 }
 
@@ -185,6 +214,10 @@
 
     .about_upper_text {
         font-size: 9vh;
+    }
+
+    .contect_left_connet_box {
+        width: auto;
     }
 
 
