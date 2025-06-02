@@ -813,9 +813,36 @@ body {
 
 .right_contact {
     width: 40%;
-    height: 90vh;
+    height: 60vh;
     /* border: 2px solid rgb(63, 197, 250); */
     background-color: var(--scclr);
     border-radius: 10px;
     box-shadow: 1px 1px 100px 1px black;
+}
+
+.googlemap {
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/* footer===================== */
+
+.footer {
+    background-color: var(--mainclr);
+    height: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_text {
+    color: var(--fontclr2);
+    font-size: 20px;
+
 }
