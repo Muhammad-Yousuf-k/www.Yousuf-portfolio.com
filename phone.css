@@ -108,6 +108,10 @@
         width: 90%;
         margin-top: 30px;
     }
+
+    .footer_text {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 760px) {
@@ -148,6 +152,10 @@
         font-size: 9vh;
 
 
+    }
+
+    .footer_text {
+        font-size: 20px;
     }
 
 
