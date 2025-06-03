@@ -26,7 +26,6 @@ body {
     /* background-color: var(--mainclr); */
 }
 
-
 /* home section======================================================= */
 
 .section1 {
@@ -669,7 +668,6 @@ body {
 
 .left_contact {
     width: 40%;
-    height: 115vh;
     /* border: 2px solid rgb(63, 197, 250); */
     background-color: var(--scclr);
     border-radius: 10px;
@@ -682,6 +680,13 @@ body {
     animation-range: entry 0% cover 20%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 73%;
+}
+
 .contact_text {
     display: flex;
     justify-content: space-between;
@@ -689,7 +694,7 @@ body {
     font-size: 5vh;
     color: var(--spfontclr);
     /* border: 2px solid rgb(63, 197, 250); */
-    width: 73%;
+    width: 100%;
     margin-top: 30px;
 }
 
@@ -700,7 +705,7 @@ body {
 .contact_para {
     color: var(--fontclr2);
     font-size: 2vh;
-    width: 73%;
+    width: 100%;
 }
 
 .user_box {
@@ -709,7 +714,7 @@ body {
     align-items: center;
     /* justify-content: center; */
     height: 50px;
-    width: 70%;
+    width: 100%;
     background-color: var(--mainclr);
     padding-left: 20px;
     margin-top: 30px;
@@ -739,7 +744,7 @@ body {
     /* align-items: center; */
     /* justify-content: center; */
     height: 150px;
-    width: 70%;
+    width: 100%;
     background-color: var(--mainclr);
     padding-left: 20px;
     margin-top: 30px;
@@ -769,7 +774,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 73%;
+    width: 100%;
     margin-top: 50px;
     border: none;
     color: var(--fontclr2);
