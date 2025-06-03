@@ -118,10 +118,15 @@
 
     .nav {
         justify-content: space-around;
+        flex-direction: column;
+        height: auto;
+
+
     }
 
     .burger {
         display: flex;
+        width: 40px;
     }
 
     .main_head {
@@ -136,6 +141,16 @@
 
     .nav_ul {
         display: none;
+        width: 90%;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .name {
+        margin-left: 0%;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
     }
 
 
