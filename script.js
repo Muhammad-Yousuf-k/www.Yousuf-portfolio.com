@@ -8,7 +8,7 @@ function typeWriter() {
     document.getElementById("demo").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
-    console.log("sdsdssd");
+    // console.log("sdsdssd");
   }
 }
 
@@ -189,3 +189,24 @@ techz.forEach((techz) => {
  `;
   container2.appendChild(card);
 });
+
+
+//for burger btn===============================================================
+
+let burger = document.getElementById("bug")
+
+burger.addEventListener("click", () => {
+  let ul = document.getElementById("nv_ul")
+  // ul.setAttribute("display", "none");
+
+  console.log(ul);
+
+  if (ul.style.display === "none") {
+    ul.style.display = "flex"
+    console.log("true");
+
+  } else {
+    ul.style.display = "none"
+    console.log("false");
+  }
+})
