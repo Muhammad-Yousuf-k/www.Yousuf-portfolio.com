@@ -1,9 +1,15 @@
        :root {
            --mainclr: #180929;
            --scclr: rgba(121, 121, 121, 0.055);
+           --hoverclr: rgba(255, 255, 255, 0.055);
            --spfontclr: #8E44AD;
            --fontclr1: #EDEDED;
            --fontclr2: gray;
            --glowclr: #D291BC;
-           --liner: linear-gradient(to right, rgb(65, 11, 165) , var(--spfontclr));
+           --liner: linear-gradient(to right, rgb(65, 11, 165), var(--spfontclr));
+           --apliner: linear-gradient(to right, var(--spfontclr), rgb(65, 11, 165));
+       }
+
+       :root {
+           --fnt_cur: cursive;
        }
