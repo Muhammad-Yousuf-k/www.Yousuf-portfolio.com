@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -58,7 +59,7 @@ body {
     color: var(--spfontclr);
     text-shadow: 2px 2px 20px var(--glowclr);
     /* border: 2px solid black; */
-    font-family: "MedievalSharp", cursive;
+    font-family: var(--fnt_cur);
     /* font-weight: 400; */
     font-style: normal;
 }
@@ -104,14 +105,13 @@ body {
 .main_head {
     color: var(--spfontclr);
     font-size: 11vh;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--fnt_cur);
     font-weight: 700;
     margin-left: 10%;
     margin-top: 20px;
     /* border: 2px solid black; */
     animation-name: fade;
     animation-duration: 1s;
-    font-family: "MedievalSharp", cursive;
     /* font-weight: 400; */
     font-style: normal;
 
@@ -120,9 +120,8 @@ body {
 .main_head_white {
     color: var(--fontclr1);
     font-size: 11vh;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-family: "MedievalSharp", cursive;
+    font-family: var(--fnt_cur);
     /* font-weight: 400; */
     font-style: normal;
 }
@@ -245,7 +244,7 @@ body {
     text-align: center;
     font-size: 10vh;
     text-shadow: 1px 1px 20px var(--glowclr);
-    font-family: "MedievalSharp", cursive;
+    font-family: var(--fnt_cur);
     /* font-weight: 400; */
     font-style: normal;
 }
@@ -275,7 +274,7 @@ body {
 .about_lower_text {
     color: var(--spfontclr);
     font-size: 6vh;
-    font-family: "MedievalSharp", cursive;
+    font-family: var(--fnt_cur);
     /* font-weight: 400; */
     font-style: normal;
     font-weight: 700;
@@ -290,7 +289,7 @@ body {
 .about_lower_text_span {
     color: var(--spfontclr);
     font-size: 6vh;
-    font-family: "MedievalSharp", cursive;
+    font-family: var(--fnt_cur);
     font-style: normal;
     font-weight: 700;
 
@@ -335,6 +334,12 @@ body {
 .abtn {
     margin-right: 30px;
     background-image: var(--liner);
+}
+
+.abtn:hover {
+    box-shadow: none;
+    transform: scale(102%);
+    background-image: var(--apliner);
 }
 
 
@@ -390,7 +395,7 @@ body {
     text-align: center;
     font-size: 10vh;
     text-shadow: 1px 1px 70px var(--glowclr);
-    font-family: "MedievalSharp", cursive;
+    font-family: var(--fnt_cur);
     /* font-weight: 400; */
     font-style: normal;
     margin-top: 15px;
@@ -429,6 +434,10 @@ body {
     /* margin-right: 40px; */
     text-shadow: 2px 2px 50px var(--glowclr);
     border-radius: 7px;
+}
+
+.port_btn:hover {
+    background-color: var(--hoverclr);
 }
 
 .portfolio_lower {
@@ -503,6 +512,10 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 1px 1px 100px 1px black;
 
+}
+
+#projects-container1 .card:hover {
+    background-color: var(--hoverclr);
 }
 
 .card>img {
@@ -622,6 +635,10 @@ body {
     border-radius: 7px;
 }
 
+.cd_box:hover {
+    background-color: var(--hoverclr);
+}
+
 .cd_box_img {
     width: 50%;
 }
@@ -660,6 +677,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
 
 .contact_text {
@@ -757,6 +777,15 @@ body {
     background-image: var(--liner);
 }
 
+.contact_left_btn:hover {
+    transform: scale(102%);
+    background-image: var(--apliner);
+}
+
+.contact_left_btn:active {
+    transform: translateY(2px);
+}
+
 .contact_left_btn_img {
     width: 30px;
     height: 50px;
@@ -795,7 +824,10 @@ body {
     /* border: 2px solid rgb(63, 197, 250); */
     border-radius: 7px;
     background-color: var(--scclr);
+}
 
+.contect_left_connet_anh:hover {
+    background-color: var(--hoverclr);
 }
 
 .contect_left_connet_anh_img {
@@ -818,6 +850,9 @@ body {
     background-color: var(--scclr);
     border-radius: 10px;
     box-shadow: 1px 1px 100px 1px black;
+    animation: fade linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
 }
 
 .googlemap {
