@@ -75,7 +75,13 @@ const projects = [
     description: "practicing to enchant to skills, To Make a Game",
     image: "img/TTT.jpg",
     link: "https://muhammad-yousuf-k.github.io/tik-tak-toe/",
-  }
+  },
+  {
+    title: "YouTube Clone",
+    description: "practicing to enchant to skills, try to clone YouTube",
+    image: "icon/YouTubeLogo.svg",
+    link: "https://muhammad-yousuf-k.github.io/youtube_cloned/",
+  },
 
 ];
 const certificate = [
