@@ -82,6 +82,12 @@ const projects = [
     image: "icon/YouTubeLogo.svg",
     link: "https://muhammad-yousuf-k.github.io/youtube_cloned/",
   },
+  {
+    title: "Origin Digital",
+    description: "practicing to enchant to skills, try to make leads Mangement System",
+    image: "img/origin digital logo.png",
+    link: "https://muhammad-yousuf-k.github.io/Origin-Digital-Service/#",
+  },
 
 ];
 const certificate = [
