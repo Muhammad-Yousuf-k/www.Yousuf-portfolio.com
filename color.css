@@ -1,15 +1,66 @@
-       :root {
-           --mainclr: #180929;
-           --scclr: rgba(121, 121, 121, 0.055);
-           --hoverclr: rgba(255, 255, 255, 0.055);
-           --spfontclr: #8E44AD;
-           --fontclr1: #EDEDED;
-           --fontclr2: gray;
-           --glowclr: #D291BC;
-           --liner: linear-gradient(to right, rgb(65, 11, 165), var(--spfontclr));
-           --apliner: linear-gradient(to right, var(--spfontclr), rgb(65, 11, 165));
-       }
+:root {
+    --hoverclr: rgba(0, 0, 0, 0.04);
+    /* subtle hover shade */
+    --glowclr: #A084DC;
+    /* light purple glow */
+    --gradiantHover: linear-gradient(to right, var(--fontclr0), #7BD3EA);
 
-       :root {
-           --fnt_cur: cursive;
-       }
+    --fontclr0: #5D3FD3;
+    /* heading font - deep purple */
+    --fontclr1: #2C2C2C;
+    /* regular text - dark gray */
+    --fontclr2: #555;
+    /* para font - medium gray */
+
+    --fnt_cur: cursive;
+
+    --mainclr: #F9F9F9;
+    /* main background - off white */
+    --scclr: rgba(0, 0, 0, 0.03);
+    /* secondary bg - light gray */
+    --gradiantBgclr: linear-gradient(to right, #A084DC, #7BD3EA);
+    /* background gradient */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================Hover & glow Colors========================== */
+:root {
+    --hoverclr: rgba(255, 255, 255, 0.055);
+    /* For hover color */
+    --glowclr: #D291BC;
+    --gradiantHover: linear-gradient(to right, var(--fontclr0), rgb(65, 11, 165));
+    /* For hover gradiant color */
+}
+
+/* ==========================Fonts Colors========================== */
+:root {
+    --fontclr0: #8E44AD;
+    /* For Heading font color */
+    --fontclr1: #EDEDED;
+    /* For normal font color */
+    --fontclr2: gray;
+    /* For para type font color */
+}
+
+:root {
+    --fnt_cur: cursive;
+}
+
+/* ==========================basic background Colors========================== */
+:root {
+    --mainclr: #180929;
+    /* For Main background color */
+    --scclr: rgba(121, 121, 121, 0.055);
+    /* For box background color */
+    --gradiantBgclr: linear-gradient(to right, rgb(65, 11, 165), var(--fontclr0));
+    /* For box background gradiant color */
+}
